@@ -1,0 +1,19 @@
+﻿@page "/"
+@using DemoLibrary.Models
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+
+@code
+{
+    List<Person> p = new List<Person>();
+
+    protected override Task OnInitializedAsync()
+    {
+        throw new NotImplementedException();
+    }
+}
